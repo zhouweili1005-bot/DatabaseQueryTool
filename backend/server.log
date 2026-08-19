@@ -1,0 +1,18 @@
+INFO:     Will watch for changes in these directories: ['D:\\claude\\ai\\geektime-bootcamp-ai-master\\w2\\db_query\\backend']
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+INFO:     Started reloader process [22264] using WatchFiles
+INFO:     Started server process [16652]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     127.0.0.1:27644 - "POST /api/v1/dbs/sys_db/query/natural HTTP/1.1" 200 OK
+INFO:     127.0.0.1:27920 - "GET /api/v1/dbs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:27920 - "GET /api/v1/dbs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:27920 - "GET /api/v1/dbs/sys_db HTTP/1.1" 200 OK
+INFO:     127.0.0.1:27920 - "GET /api/v1/dbs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:27920 - "GET /api/v1/dbs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:27924 - "POST /api/v1/dbs/sys_db/query/natural HTTP/1.1" 200 OK
+INFO:     127.0.0.1:28132 - "POST /api/v1/dbs/sys_db/query/natural HTTP/1.1" 400 Bad Request
+INFO:     127.0.0.1:28147 - "OPTIONS /api/v1/dbs/sys_db/query HTTP/1.1" 200 OK
+INFO:     127.0.0.1:28147 - "POST /api/v1/dbs/sys_db/query HTTP/1.1" 200 OK
+INFO:     127.0.0.1:28279 - "POST /api/v1/dbs/sys_db/query/natural HTTP/1.1" 200 OK
+INFO:     127.0.0.1:28454 - "POST /api/v1/dbs/sys_db/query HTTP/1.1" 200 OK
