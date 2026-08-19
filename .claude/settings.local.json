@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(make install *)",
+      "Bash(npm *)",
+      "Bash(pip install *)",
+      "Bash(uv sync *)",
+      "Bash(uv run *)",
+      "Bash(pkill -f \"uvicorn app.main:app\")",
+      "Bash(taskkill //F //IM python.exe)",
+      "Bash(curl -X POST http://localhost:8000/api/v1/dbs/sys_db/query/natural -H \"Content-Type: application/json\" -d \"{\\\\\"prompt\\\\\": \\\\\"显示所有用户\\\\\"}\")",
+      "Bash(curl *)",
+      "Bash(netstat -ano)"
+    ]
+  },
+  "enableAllProjectMcpServers": true,
+  "enabledMcpjsonServers": [
+    "playwright"
+  ]
+}
